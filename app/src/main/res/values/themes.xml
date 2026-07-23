@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme, dependent on Material 3 -->
+    <style name="Theme.DivineIQ" parent="Theme.Material3.DynamicColors.Light">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/divine_primary</item>
+        <item name="colorOnPrimary">@color/divine_on_primary</item>
+        <item name="colorPrimaryContainer">@color/divine_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/divine_on_primary_container</item>
+
+        <item name="colorSecondary">@color/divine_secondary</item>
+        <item name="colorOnSecondary">@color/divine_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/divine_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/divine_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/divine_tertiary</item>
+        <item name="colorOnTertiary">@color/divine_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/divine_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/divine_on_tertiary_container</item>
+
+        <item name="colorError">@color/divine_error</item>
+        <item name="colorOnError">@color/divine_on_error</item>
+        <item name="colorErrorContainer">@color/divine_error_container</item>
+        <item name="colorOnErrorContainer">@color/divine_on_error_container</item>
+
+        <item name="android:colorBackground">@color/divine_background</item>
+        <item name="colorOnBackground">@color/divine_on_background</item>
+        <item name="colorSurface">@color/divine_surface</item>
+        <item name="colorOnSurface">@color/divine_on_surface</item>
+        <item name="colorSurfaceVariant">@color/divine_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/divine_on_surface_variant</item>
+        <item name="colorOutline">@color/divine_outline</item>
+
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+    </style>
+
+    <style name="Theme.DivineIQ.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ShapeAppearance.DivineIQ.Card" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

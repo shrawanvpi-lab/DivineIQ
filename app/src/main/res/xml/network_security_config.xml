@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- DivineIQ only ever talks to HTTPS endpoints. This blocks accidental
+         or malicious cleartext (HTTP) traffic app-wide, including from any
+         WebView or third-party SDK added later. -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
