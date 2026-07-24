@@ -36,7 +36,7 @@
         <item name="android:navigationBarColor">?attr/colorSurface</item>
     </style>
 
-    <style name="Theme.DivineIQ.NoActionBar">
+    <style name="Theme.DivineIQ.NoActionBar" parent="Theme.DivineIQ">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
